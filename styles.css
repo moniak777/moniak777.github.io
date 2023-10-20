@@ -1,0 +1,90 @@
+* {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  z-index: 0;
+}
+
+header {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 45vh;
+}
+
+footer {
+  height: 30vh;
+  background-color: lightskyblue;
+}
+
+main {
+  background-color: rgb(207, 188, 79);
+  border-radius: 2.5%;
+}
+
+nav {
+  color: lightcoral;
+  position: fixed;
+}
+
+button {
+  z-index: 1;
+}
+
+button:hover {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  width: 30vw;
+  background-color: lightskyblue;
+  color: lightcoral;
+  font-family: Helvetica, arial, sans-serif;
+  margin: auto;
+  margin-top: 5%;
+}
+
+label {
+  text-align: center;
+  color: snow;
+  font-size: 3vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 30vw;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2vh;
+}
+
+li {
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+  list-style-image: url("bunnyicon.png");
+}
+
+img {
+  height: 75%;
+  margin: auto;
+  margin-top: 2.5%;
+}
+
+#misio,
+#pusia {
+  height: 100vh;
+  margin: auto;
+  border-color: gold;
+}
+
+#footer {
+  margin-top: 5vh;
+}
+
+.makeMeBlock {
+  display: block;
+}
